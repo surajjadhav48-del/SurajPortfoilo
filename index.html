@@ -141,14 +141,25 @@
     <!-- CONTACT -->
     <section id="contact">
         <h2 class="section-title">Contact Me</h2>
-<form
+<form 
   action="https://formspree.io/f/xqawyqvo"
-  method="POST">
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea rows="5" placeholder="Your Message" required></textarea>
-            <button class="btn-primary">Send Message</button>
-        </form>
+  method="POST"
+  class="contact-form">
+
+    <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required />
+    </div>
+
+    <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required />
+    </div>
+
+    <div class="form-group">
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    </div>
+
+    <button type="submit" class="btn-primary">Send Message</button>
+</form>
     </section>
 
     <!-- FOOTER -->
@@ -159,6 +170,7 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
