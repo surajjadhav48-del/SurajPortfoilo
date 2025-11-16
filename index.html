@@ -140,17 +140,20 @@
 
     <!-- CONTACT -->
    <section id="contact">
-        <h2 class="section-title">Contact Me</h2>
+    <h2 class="section-title">Contact Me</h2>
 
-        <form class="contact-form"
-             action="https://formspree.io/f/xqawyqvo"
-  method="POST">
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea rows="5" placeholder="Your Message" required></textarea>
-            <button class="btn-primary">Send Message</button>
-        </form>
-    </section>
+    <form 
+        class="contact-form"
+        action="https://formspree.io/f/xqawyqvo"
+        method="POST">
+
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+</section>
     <!-- FOOTER -->
     <footer>
         <p>© 2025 Suraj Jadhav. All Rights Reserved.</p>
@@ -159,6 +162,7 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
