@@ -197,7 +197,7 @@ section {
 
 .about-img {
     width: 330px;
-    height: 350px;
+    height: 330px;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
@@ -278,7 +278,7 @@ section {
 @media (max-width: 500px) {
     .about-img {
         width: 220px;
-        height: 220px;
+        height: 250px;
     }
 
     .about-section {
